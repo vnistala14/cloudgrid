@@ -1,0 +1,21 @@
+title: "Nimbus Documentation Site"
+description: "Nimbus documentation and guides"
+theme: minima
+baseurl: ""
+url: "https://vnistala14.github.io/nimbus-docs"
+
+# Enable plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+
+# Navigation
+header_pages:
+  - index.md
+  - docs/getting-started.md
+  - docs/api-reference.md
+  - about.md
